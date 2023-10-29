@@ -1,0 +1,22 @@
+{% extends 'layout.html' %}
+
+{% block title %} Home {% endblock %}
+
+{% block name %}
+
+{% if name %}
+<br><h1 class="text-center">{{name}}</h1>
+{% else %}
+<br><h1 class="text-center">Lab 4</h1>
+{% endif %}
+
+{% endblock %}
+
+{% block body %}
+<br><hr><br>
+
+<p class="text-center">Start page of Lab 4 Project. Press Register or Login</p>
+
+
+<br><hr><br>
+{% endblock %}
